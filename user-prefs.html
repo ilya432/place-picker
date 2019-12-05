@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/user-prefs.css">
+</head>
+
+<body>
+    <!-- Here we will use a <form> to get the user preferences and save them to
+        localStorage.
+        The homepage should use those CSS preferences. -->
+    <section class="container-section">
+        <div><a class="link" href="./index.html">Return to index</a></div>
+        <form id="frmPrefs">
+            <section class="formSection">
+                <label for="frmPrefs">Select your favorite color:</label>
+                <input type="color" class="color" id="color" name="color" value="#FF9999" form="frmRegister" />
+            </section>
+            <section class="formSection">
+                <label for="frmPrefs">Date:</label>
+                <input type="date" id="date" name="date" />
+            </section>
+
+            <input class="submitBtn" type="submit" formNoValidate value="Submit" />
+        </form>
+    </section>
+</body>
+
+</html>

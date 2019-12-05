@@ -1,0 +1,15 @@
+/* body, html{}
+a{} */
+
+@font-face{
+    font-family: MontserratBold;
+    src: url('../font/Montserrat-Bold.ttf');
+}
+.container-section{width:100%; height:100%; display:flex; flex-flow:column; text-align: center; justify-content: center;}
+h1{ font-family: MontserratBold; margin-top: 5%;}
+a{color: brown; font-weight: bold; text-decoration: none; background: rgb(203, 231, 176); border-radius: 2em;}
+a:hover{background-color: rgb(219, 176, 145);}
+.index-links{display: flex; flex-flow:row; text-align: center; justify-content: center; line-height: 5;}
+.index-links a{ min-width: 100px; min-height: 100px; padding: 40px; margin: 20px;}
+
+.background{background-color: white;}
